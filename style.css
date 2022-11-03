@@ -1,0 +1,319 @@
+
+/*Header*/
+header{
+    position: fixed;
+    background: rgb(122, 121, 173);
+    height: 7vh;
+    width: 100%;
+    top: 0;
+    z-index: 9;
+    }
+
+/*Navigation Bar*/
+.nav{
+    text-align: right;
+    }
+ul li{
+    display: inline;
+    text-decoration: none;
+    margin-top: 10px;
+    padding-right: 15px;
+    }
+.nav > li > a{
+    color: white;
+    font-family: 'Tenor Sans', sans-serif;    
+    font-size: 20px;
+    font-weight: 25;
+    }
+.nav > li > a:hover{
+    color:rgba(0, 0, 0, 0.19);
+    text-decoration: none;
+    }
+.nav > li > a:link{
+    text-decoration: none;
+    }
+.nav > li > a:visited{
+    text-decoration: none;
+    }
+
+
+/*Home*/
+.homepage{
+    /*position:relative;*/
+    height: 100vh;
+    width: 100%;
+    background: rgb(122, 121, 173);
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-bottom: 3%;
+    }
+hr{
+    background:rgb(238, 245, 255);
+    text-align: left;
+    margin: 0;
+    margin-top: 15%;
+    width: 30%;
+    height: 5px;
+    }
+.intro-name, .intro-role, .intro-description{
+    text-align: left;
+	line-height: 1;
+	font-family: 'Raleway', sans-serif;
+    }
+.intro-name{
+    color: #a1ced4;
+	font-size: 450%;
+    padding-top: 2%;
+    }
+.intro-role{
+    color: #485461;
+	font-size: 275%;
+    padding-bottom: 1%;
+	}
+.intro-description{
+    color:#a1ced4;
+    }
+.intro-row:after{
+        content: "";
+        display: table;
+        clear: both;
+        }
+span{
+    background-color:rgb(238, 245, 255);
+    color:#485461;
+    }
+
+/*Icons for Email, LinkedIn, & GitHub*/
+.icons-location{
+    text-align: left;
+    margin-top: 6%;
+    }
+.icons-head, .icons-foot {
+    font-size: 35px;
+    letter-spacing: 10px;
+    }
+.icons-head{
+    color:rgb(238, 245, 255);
+    }
+.icons-foot{
+    color:rgb(122, 121, 173);
+    }
+
+.image-rectangle{
+    display: block;
+    text-align: left;
+    }
+.image-rectangle > img{
+    width: 360px;
+    height: 360px;
+    overflow: none;
+    margin: 75px 0px 0px 75px;  
+    }
+
+/*Main*/
+#page-main{
+    /*position:relative;*/
+    height: 100vh;
+    width: 100%;
+    margin-top: 30px;
+    padding: 10px;
+   }
+.background-about-me, .background-projects, .background-skills{
+    background-color:#485461;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-bottom: 30px;
+    }
+.background-experience, .background-research {
+    background-color: rgb(238, 245, 255);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-bottom: 30px;
+    }
+.title-about-me, .title-projects, .title-experience, .title-research, .title-skills{
+    color: #a1ced4;
+    text-align: center;
+    padding-top: 48px;
+    }
+.intro-column, .column{
+    float: left;
+    width: 50%;
+    }    
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+/*1.About Me*/
+.about-image{
+    display: block;
+    text-align: center;
+    }
+.about-image > img{
+        width: 315px;
+        height: 315px;
+        overflow: none;
+        }
+.about-rectangle{
+    float: left;
+    }
+.text-aboutme{
+    color: rgb(238, 245, 255);
+    display: inline;
+    }
+
+/*2.Experience*/
+.experience-rectangle{
+    max-width: 880px;
+    max-height: 700px;
+    padding: 15px;
+    margin: 0 auto 10px auto;
+    border: 2px solid #485461;
+    border-style: solid;
+    text-align: left
+}
+.text-date{
+    float: right;
+    font-size: 15px;
+}
+.h3-experience{
+    font-size: 25px;
+    color: #a1ced4;
+    text-align: left;
+    }
+.h4-experience{
+    font-size: 20px;
+    color: #485461;
+    text-align: left;
+    }
+ul .experience-list-item{
+    display: list-item;
+    line-height: 95%;
+    margin-left: 0px;
+    padding-left: 5px;
+    }
+
+/*3.Projects*/
+.projects-size{
+    height: 100%;
+    width: 68%;
+}
+.h5-projects{
+    color:rgb(238, 245, 255);
+    text-align: left;
+    }
+.row-pill {
+    padding: px;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    }
+.color-pill {
+    color: white;
+    margin: 5px;
+    height: 28px;
+    width: 100px;
+    padding-top: 2px;
+    text-align: center;
+    border-radius: 25px;
+    background-color: rgb(122, 121, 173);
+    font-family: 'Open Sans';
+    }
+.p-projects{
+    font-size: 15px;
+    color: rgb(238, 245, 255);
+    text-align: left;
+    margin: 0px;
+    }
+/*4.Research*/
+.research-rectangle{
+    max-width: 800px;
+    max-height: 700px;
+    padding: 15px;
+    margin: 0 auto 10px auto;
+    /*border: 2px solid #485461;*/
+    /*border-style: solid;*/
+    text-align: left
+}
+.h4-research{
+    display: inline;
+    font-size: 25px;
+}
+.image-research1{
+    display: block;
+    text-align: center;
+}
+
+.image-research1 > img{
+    width: 300px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: none;
+    padding: 20px;
+}
+.image-research2 > img{
+    width: 300px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: none;
+    padding: 20px;
+}
+/*5.Skills*/
+.skills-size{
+  height: 100%;
+  width: 68%;
+}
+.h3-skills{
+	font-size: 25px;
+	text-align: left;
+    color:#FFFFFF;
+    }
+.h4-skills{
+	font-size: 18px;
+	text-align: left;
+    color:#FFFFFF;
+    }
+.p-skills{
+	font-size: 15px;
+	text-align: left;
+    color:#FFFFFF;
+    }
+.p-skills li{
+    display: list-item;
+    line-height: 95%;
+    margin-left: 0px;
+    padding-left: 0px;
+    } 
+
+/*Footer*/
+footer{
+    position: relative;
+    margin: 15px 0px;
+    
+    }
+.footer-size{
+	height: 40px;
+	width: 100%;
+	background: #FFFFFF;
+    
+    }
+.footer-icons, .p-footer{
+    text-align: center;
+    line-height: 90%;
+    }
+.p-footer{
+    font-size: 16px;
+    padding-bottom: 15px;
+    }
+
+@media screen and (max-width: 850px) {
+    .column {
+      width: 100%;
+    }
+  }
